@@ -23,7 +23,9 @@
               },
               backgroundImage: {
                 'banner-image': 'url(./images/banner.png)',
-                'slider1-image': 'url(./images/banner.png)',
+                'slider1-image': 'url(./images/slider-1.jpg)',
+                'slider2-image': 'url(./images/slider-2.jpg)',
+                'slider3-image': 'url(./images/slider-3.jpg)',
                 'rectangle-7-bg': 'url(./images/Rectangle 7.png)',
                 'criminal-law-bg': 'linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%)'
               },
@@ -187,30 +189,67 @@
         <!-- clients carousel starts -->
         <div class="mt-16">
           <div class="carousel w-full">
+            <!-- client slider-1 -->
             <div id="slide1" class="carousel-item relative w-full">
-
-
-
               <!-- single client review sileder -->
-              <div class="hero h-[550px] bg-slider1-image">
-                <div class="hero-overlay bg-opacity-70"></div>
+              <div class="hero h-[550px] bg-slider1-image rounded-lg overflow-hidden">
+                <div class="hero-overlay bg-opacity-80"></div>
                 <div class="hero-content text-center text-neutral-content">
-                  <div class="max-w-md">
-                    <div>
-                      <img class="w-20 h-20 rounded-full" src="images/clients.jpg" alt="">
+                  <div class="max-w-4xl">
+                    <div class="flex justify-center">
+                      <img class="w-20 border-4 h-20 rounded-full" src="images/clients.jpg" alt="">
                     </div>
-                    <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <h3 class="font-garamond text-2xl font-extrabold mt-6">Awlad Hossain</h3>
+                    <h6 class="text-base font-normal mt-2">UIX Designer</h6>
+                    <p class="mt-14 lg:mt-8 text-base font-normal leading-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                   </div>
                 </div>
               </div>
-
-              <!-- slider end -->
-
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
+              <div class="absolute flex justify-between lg:transform -translate-y-full lg:-translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn text-gray-200 bg-transparent border-none text-2xl">❮</a> 
+                <a href="#slide2" class="btn text-gray-200 bg-transparent border-none text-2xl">❯</a>
+              </div>
+            </div> 
+            <!-- client slider-2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <!-- single client review sileder -->
+              <div class="hero h-[550px] bg-slider2-image rounded-lg overflow-hidden">
+                <div class="hero-overlay bg-opacity-70"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-4xl">
+                    <div class="flex justify-center">
+                      <img class="w-20 border-4 h-20 rounded-full" src="images/clients.jpg" alt="">
+                    </div>
+                    <h3 class="font-garamond text-2xl font-extrabold mt-6">Awlad Hossain</h3>
+                    <h6 class="text-base font-normal mt-2">UIX Designer</h6>
+                    <p class="mt-14 lg:mt-8 text-base font-normal leading-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute flex justify-between lg:transform -translate-y-full lg:-translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn text-gray-200 bg-transparent border-none text-2xl">❮</a> 
+                <a href="#slide3" class="btn text-gray-200 bg-transparent border-none text-2xl">❯</a>
+              </div>
+            </div> 
+            <!-- client slider-3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <!-- single client review sileder -->
+              <div class="hero h-[550px] bg-slider3-image rounded-lg overflow-hidden">
+                <div class="hero-overlay bg-opacity-80"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-4xl">
+                    <div class="flex justify-center">
+                      <img class="w-20 border-4 h-20 rounded-full" src="images/clients.jpg" alt="">
+                    </div>
+                    <h3 class="font-garamond text-2xl font-extrabold mt-6">Awlad Hossain</h3>
+                    <h6 class="text-base font-normal mt-2">UIX Designer</h6>
+                    <p class="mt-14 lg:mt-8 text-base font-normal leading-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute flex justify-between lg:transform -translate-y-full lg:-translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn text-gray-200 bg-transparent border-none text-2xl">❮</a> 
+                <a href="#slide1" class="btn text-gray-200 bg-transparent border-none text-2xl">❯</a>
               </div>
             </div> 
 
