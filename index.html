@@ -29,6 +29,9 @@
                 'rectangle-7-bg': 'url(./images/Rectangle 7.png)',
                 'criminal-law-bg': 'linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%)'
               },
+              backgroundColor: {
+                'contact-bg': '#F3F3F3'
+              }
             }
           }
         }
@@ -257,10 +260,10 @@
         </section>
         <!-- Frequently asked question section -->
         <section class="mt-16 lg:mt-28">
-          <h2 class="px-5 ld:px-0 text-3xl lg:text-4xl font-extrabold font-garamond text-center text-heading-color">Frequently Asked Any Questions</h2>
-          <p class="px-5 ld:px-0 text-base font-normal text-center text-my-text-color lg:w-7/12 mx-auto mt-7 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <h2 class="px-5 lg:px-0 text-3xl lg:text-4xl font-extrabold font-garamond text-center text-heading-color">Frequently Asked Any Questions</h2>
+          <p class="px-5 lg:px-0 text-base font-normal text-center text-my-text-color lg:w-7/12 mx-auto mt-7 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
           <!-- faq container -->
-          <div class="flex flex-col-reverse lg:flex-row px-5 ld:px-0 mt-16">
+          <div class="flex flex-col-reverse lg:flex-row px-5 lg:px-0 mt-16">
             <!-- faq content -->
             <div class="flex-1 mt-6 lg:mt-0 space-y-5">
               <div class="collapse collapse-plus p-2 rounded-lg bg-base-200">
@@ -309,6 +312,75 @@
 
         </section>  
         <!-- contact with us section start -->
+         <!-- Frequently asked question section -->
+         <section class="mt-5 lg:mt-7">
+          <h2 class="px-5 lg:px-0 text-3xl lg:text-4xl font-extrabold font-garamond text-center text-heading-color">Contact With Us</h2>
+          <p class="px-5 lg:px-0 text-base font-normal text-center text-my-text-color lg:w-7/12 mx-auto mt-7 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+          <!-- contact container -->
+          <div class="flex gap-8 mt-20">
+            <!-- contact cards -->
+            <div class="flex-1">
+              <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 px-5 lg:px-0 space-y-4 md:space-y-0">
+                <!-- single contact card 1 -->
+                <div class="shadow-md md:shadow-none card bg-contact-bg md:border-r-2 md:border-b-2 rounded-none">
+                  <figure class="px-10 pt-10">
+                    <img src="./images/location.png" alt="Shoes" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title font-garamond font-extrabold text-2xl text-heading-color">Address</h2>
+                    <p class="text-base font-normal text-my-text-color mt-3 leading-7">A108 Adam Street, <br>
+                      New York, NY 535022</p>
+                  </div>
+                </div>
+                <!-- single contact card 2 -->
+                <div class="shadow-md md:shadow-none card bg-contact-bg md:border-b-2 rounded-none">
+                  <figure class="px-10 pt-10">
+                    <img src="./images/call.png" alt="Shoes" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title font-garamond font-extrabold text-2xl text-heading-color">Call Us</h2>
+                    <p class="text-base font-normal text-my-text-color mt-3 leading-7">+88 01750 00 00 00 <br>
+                      +88 01750 00 00 00</p>
+                  </div>
+                </div>
+                <!-- single contact card 3 -->
+                <div class="shadow-md md:shadow-none card bg-contact-bg md:border-r-2 rounded-none">
+                  <figure class="px-10 pt-10">
+                    <img src="./images/email.png" alt="Shoes" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title font-garamond font-extrabold text-2xl text-heading-color">Email Us</h2>
+                    <p class="text-base font-normal text-my-text-color mt-3 leading-7">info@gmail.com <br>
+                      info@gmail.com</p>
+                  </div>
+                </div>
+                <!-- single contact card 4 -->
+                <div class="shadow-md md:shadow-none card bg-contact-bg rounded-none">
+                  <figure class="px-10 pt-10">
+                    <img src="./images/time.png" alt="time" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title font-garamond font-extrabold text-2xl text-heading-color">Working Hours</h2>
+                    <p class="text-base font-normal text-my-text-color mt-3 leading-7">Mon-Fri: 9AM to 5PM <br>
+                      Sunday: 9AM to 1 PM</p>
+                  </div>
+                </div>
+                </div>
+            </div>
+            <!-- contact forms -->
+            <div class="flex-1">
+              <form class="w-full" action="">
+                <input class="bg-contact-bg w-full px-5 py-4 rounded-md border-none outline-none mb-5" type="text" placeholder="Your Name" />
+                <input class="bg-contact-bg w-full px-5 py-4 rounded-md border-none outline-none mb-5" type="text" placeholder="Your Email" />
+                <input class="bg-contact-bg w-full px-5 py-4 rounded-md border-none outline-none mb-5" type="text" placeholder="Subject" />
+                <textarea class="bg-contact-bg w-full px-4 py-5 rounded-md border-none outline-none mb-5 resize-none" name="" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                <button class="bg-my-btn-color text-white w-full px-5 py-3 rounded-md border-none outline-none">Send Message</button>
+              </form>
+            </div>
+          </div>
+
+          </section>
     </main>
     <!-- footer -->
     <footer>
